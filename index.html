@@ -21,7 +21,7 @@
 
 
 <header class="header" >
-    <h1 class="hder1"> Function 09 Tasks  </h1>
+    <h1 class="hder1"> <span >Function </span>  09 Tasks  </h1>
 </header>
 
 
@@ -32,19 +32,19 @@
 <!-- Task 1  -->
 <div class="Task1">
 
-    <h2 class="HTask"> Task 01 </h2>
+    <h2 class="HTask"> Task <span> 01 </span>  </h2>
 
 <p class="pTask"> Write a function that takes in a number from an input element and displays the factorial of that number in an output element.  </p>
 
-<form > 
-<input type="text" placeholder="Write  a Number" class="input">
+<form onsubmit="Factorial() ; return false"> 
+<input type="number" placeholder="Write  a Number" class="input" id="factorial">
 <br/>
-<button type="submit" >Enter  </button> 
+<button type="submit" onclick="Factorial(); return false" >Enter  </button> 
 
 </form>
 
 <div class="Result">
-<input type="text" placeholder="Result" disabled class="input">
+<input type="text" placeholder="Result" disabled class="input" id="factorialResult" >
 </div>
 
 
@@ -56,46 +56,42 @@
 <!-- Task 2  -->
 <div class="Task1">
 
-    <h2 class="HTask"> Task 01 </h2>
+    <h2 class="HTask"> Task <span> 02 </span> </h2>
 
-<p class="pTask"> Write a function that takes in a number from an input element and displays the factorial of that number in an output element.  </p>
+<p class="pTask"> Write a function that takes in a string from an input element and displays the same string with all the vowels removed in an output element . </p>
 
-<form > 
-<input type="text" placeholder="Write  a Number" class="input">
+<form onsubmit=" Vowels();return false"> 
+<input type="text" placeholder="Write a word e:g Bilal " class="input" id="vowelsInput">
 <br/>
-<button type="submit" >Enter  </button> 
+<button type="submit" onclick="Vowels();return false" >Enter  </button> 
 
 </form>
 
 <div class="Result">
-<input type="text" placeholder="Result" disabled class="input">
+<input type="text" placeholder="Result" disabled class="input" id="vowelsOutput">
 </div>
 
 
 </div>
-
-
-
-
 
 
 
 <!-- Task 3  -->
 <div class="Task1">
 
-    <h2 class="HTask"> Task 01 </h2>
+    <h2 class="HTask"> Task <span>03</span>  </h2>
 
-<p class="pTask"> Write a function that takes in a number from an input element and displays the factorial of that number in an output element.  </p>
+<p class="pTask">  Write a function that takes in an array of numbers from an input element and displays the largest number in the array in an output element.  </p>
 
-<form > 
-<input type="text" placeholder="Write  a Number" class="input">
+<form onsubmit="MaxValue(); return false"> 
+<input type="text" placeholder="Write Numbers e:g 44,55,66" class="input" id="maxI">
 <br/>
-<button type="submit" >Enter  </button> 
+<button type="submit" onclick="MaxValue(); return false">Enter  </button> 
 
 </form>
 
 <div class="Result">
-<input type="text" placeholder="Result" disabled class="input">
+<input type="text" placeholder="Result" disabled class="input" id="maxO">
 </div>
 
 
@@ -106,19 +102,19 @@
 <!-- Task 4  -->
 <div class="Task1">
 
-    <h2 class="HTask"> Task 01 </h2>
+    <h2 class="HTask"> Task <span>04</span> </h2>
 
-<p class="pTask"> Write a function that takes in a number from an input element and displays the factorial of that number in an output element.  </p>
+<p class="pTask"> Write a function that takes in a string from an input element and displays the same string with the first letter of every word capitalized in an output element. </p>
 
-<form > 
-<input type="text" placeholder="Write  a Number" class="input">
+<form onsubmit="capitalized (); return false" > 
+<input type="text" placeholder="Write words" class="input" id="capitalizedI">
 <br/>
-<button type="submit" >Enter  </button> 
+<button type="submit" onclick="capitalized();return false" >Enter  </button> 
 
 </form>
 
 <div class="Result">
-<input type="text" placeholder="Result" disabled class="input">
+<input type="text" placeholder="Result" disabled class="input" id="capitalizedO">
 </div>
 
 
@@ -129,19 +125,19 @@
 <!-- Task 5  -->
 <div class="Task1">
 
-    <h2 class="HTask"> Task 01 </h2>
+    <h2 class="HTask"> Task <span>05</span> </h2>
 
-<p class="pTask"> Write a function that takes in a number from an input element and displays the factorial of that number in an output element.  </p>
+<p class="pTask">Write a function that takes in an array of numbers from an input element and displays the average of those numbers in an output element. </p>
 
-<form > 
-<input type="text" placeholder="Write  a Number" class="input">
+<form  onsubmit="average(); return false"> 
+<input type="text" placeholder="Write Numbers e:g 44,88,100" class="input" id="inputNumbers">
 <br/>
-<button type="submit" >Enter  </button> 
+<button type="submit"  onclick="average(); return false">Enter  </button> 
 
 </form>
 
 <div class="Result">
-<input type="text" placeholder="Result" disabled class="input">
+<input type="text" placeholder="Result" disabled class="input" id="outputAverageNum">
 </div>
 
 
@@ -152,19 +148,19 @@
 <!-- Task 6  -->
 <div class="Task1">
 
-    <h2 class="HTask"> Task 01 </h2>
+    <h2 class="HTask"> Task <span> 06 </span> </h2>
 
-<p class="pTask"> Write a function that takes in a number from an input element and displays the factorial of that number in an output element.  </p>
+<p class="pTask"> Write a function that takes in a string from an input element and displays true if the string is a palindrome and false if it is not in an output element.</p>
 
-<form > 
-<input type="text" placeholder="Write  a Number" class="input">
+<form onsubmit="palindrome();return false"> 
+<input type="text" placeholder="Write a Word" class="input" id="inputWord">
 <br/>
-<button type="submit" >Enter  </button> 
+<button type="submit" onclick="palindrome();return false">Enter  </button> 
 
 </form>
 
 <div class="Result">
-<input type="text" placeholder="Result" disabled class="input">
+<input type="text" placeholder="Result" disabled class="input" id="checkedWord">
 </div>
 
 
@@ -175,19 +171,19 @@
 <!-- Task 7  -->
 <div class="Task1">
 
-    <h2 class="HTask"> Task 01 </h2>
+    <h2 class="HTask"> Task <span >07 </span> </h2>
 
-<p class="pTask"> Write a function that takes in a number from an input element and displays the factorial of that number in an output element.  </p>
+<p class="pTask">Write a function that takes in an array of strings from an input element and displays a new array with all the strings sorted in alphabetical order in an output element.  </p>
 
-<form > 
-<input type="text" placeholder="Write  a Number" class="input">
+<form onsubmit=" sort()   ;return false"> 
+<input type="text" placeholder="Write multiple words "  class="input" id="SortedI">
 <br/>
-<button type="submit" >Enter  </button> 
+<button type="submit" onclick="  sort() ;return false">Enter  </button> 
 
 </form>
 
 <div class="Result">
-<input type="text" placeholder="Result" disabled class="input">
+<input type="text" placeholder="Result" disabled class="input" id="SortedO">
 </div>
 
 
@@ -200,19 +196,19 @@
 <!-- Task 8  -->
 <div class="Task1">
 
-    <h2 class="HTask"> Task 01 </h2>
+    <h2 class="HTask"> Task <span >08 </span> </h2>
 
-<p class="pTask"> Write a function that takes in a number from an input element and displays the factorial of that number in an output element.  </p>
+<p class="pTask">  Write a function that takes in a number from an input element and displays true if the number is prime and false if it is not in an output element. </p>
 
-<form > 
-<input type="text" placeholder="Write  a Number" class="input">
+<form onsubmit="prime();return false"> 
+<input type="number" placeholder="Write  a Number" class="input" id="PrimeI">
 <br/>
-<button type="submit" >Enter  </button> 
+<button type="submit" onclick="prime();return false">Enter  </button> 
 
 </form>
 
 <div class="Result">
-<input type="text" placeholder="Result" disabled class="input">
+<input type="text" placeholder="Result" disabled class="input " id="PrimeO">
 </div>
 
 
@@ -224,9 +220,9 @@
 <!-- Task 9  -->
 <div class="Task1">
 
-    <h2 class="HTask"> Task 01 </h2>
+    <h2 class="HTask"> Task <span >09 </span> </h2>
 
-<p class="pTask"> Write a function that takes in a number from an input element and displays the factorial of that number in an output element.  </p>
+<p class="pTask"> Write a function that takes in an array of objects from an input element and displays a new array with all the objects sorted by a given property in an output element. </p>
 
 <form > 
 <input type="text" placeholder="Write  a Number" class="input">
